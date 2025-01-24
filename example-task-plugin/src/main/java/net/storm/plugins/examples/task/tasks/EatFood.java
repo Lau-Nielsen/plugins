@@ -14,6 +14,7 @@ public class EatFood implements Task {
 
     @Override
     public boolean validate() {
+        System.out.println(config);
         return config.eatFood() && Combat.getHealthPercent() < config.foodHp() && Inventory.contains(config.foodName());
     }
 

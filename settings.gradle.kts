@@ -3,7 +3,7 @@ rootProject.name = "storm2-example-plugin"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 include(
-    "example-looped-plugin",
+    "example-loopintelled-plugin",
     "example-task-plugin",
 )
 
